@@ -31,6 +31,7 @@ color:${(props)=>props.theme['gray-100']};
 &::placeholder{
   color: ${(props)=>props.theme['gray-100']};
 }
+
 `
 export const TaskInput = styled(BaseInput)`
 flex: 1;
